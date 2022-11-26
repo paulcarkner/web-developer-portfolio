@@ -11,7 +11,7 @@ export default class Card extends React.Component {
           <div className={Style.cardDescription}>{this.props.children}</div>
           <div className={Style.cardTags}>{this.props.tags}</div>
           <div className={Style.cardLinks}>
-            <a className={Style.cardButton} href={this.props.previewUrl}>
+            <a className={Style.cardButton} href={this.props.previewUrl} target="_blank">
               <span className="material-symbols-outlined">open_in_new</span>
               Preview
             </a>
