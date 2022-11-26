@@ -1,7 +1,7 @@
 import "./App.css";
 import Card from "./Components/Card";
 
-function App() {
+export function App() {
   return (
     <div className="app">
       <Card
@@ -9,7 +9,7 @@ function App() {
         title="WordleSolver"
         tags="HTML, CSS, JavaScript, React"
         codeUrl="http://somelink.com"
-        previewUrl="http://somelink.com"
+        previewUrl="/wordle-solver"
       >
         Here is my text.
       </Card>
@@ -37,5 +37,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
