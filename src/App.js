@@ -1,4 +1,8 @@
 import "./App.css";
+import "./Assets/portrait-1080p.jpg";
+import "./Assets/2048-game.jpg";
+import "./Assets/weather-app.jpg";
+import "./Assets/wordle-solver.jpg";
 import Card from "./Components/Card";
 
 export function App() {
