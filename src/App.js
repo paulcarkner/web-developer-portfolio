@@ -1,15 +1,15 @@
 import "./App.css";
 import "./Assets/portrait-1080p.jpg";
-import "./Assets/2048-game.jpg";
-import "./Assets/weather-app.jpg";
-import "./Assets/wordle-solver.jpg";
+import game2048Img from "./Assets/2048-game.jpg";
+import weatherAppImg from "./Assets/weather-app.jpg";
+import worldSolverImg from "./Assets/wordle-solver.jpg";
 import Card from "./Components/Card";
 
-export function App() {
+export default function App() {
   return (
     <div className="app">
       <Card
-        imgSrc="./Assets/wordle-solver.jpg"
+        imgSrc={worldSolverImg}
         title="WordleSolver"
         tags="HTML, CSS, JavaScript, React"
         codeUrl="http://somelink.com"
@@ -18,7 +18,7 @@ export function App() {
         Here is my text.
       </Card>
       <Card
-        imgSrc="./Assets/weather-app.jpg"
+        imgSrc={weatherAppImg}
         title="Weather App"
         tags="HTML, CSS, JavaScript, React"
         codeUrl="http://somelink.com"
@@ -27,7 +27,7 @@ export function App() {
         Weather app text. 
       </Card>
       <Card
-        imgSrc="./Assets/2048-game.jpg"
+        imgSrc={game2048Img}
         title="2048 Game (Clone)"
         tags="HTML, CSS, JavaScript, jQuery"
         codeUrl="http://somelink.com"
