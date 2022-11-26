@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.module.css";
 import "./Assets/portrait-1080p.jpg";
 import game2048Img from "./Assets/2048-game.jpg";
 import weatherAppImg from "./Assets/weather-app.jpg";
