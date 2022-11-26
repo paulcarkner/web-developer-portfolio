@@ -27,7 +27,7 @@ function App() {
         title="2048 Game (Clone)"
         tags="HTML, CSS, JavaScript, jQuery"
         codeUrl="http://somelink.com"
-        previewUrl="http://somelink.com"
+        previewUrl="/2048"
       >
         Recreation of 2048 game. 
       </Card>
