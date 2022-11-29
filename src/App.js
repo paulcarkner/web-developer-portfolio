@@ -1,4 +1,5 @@
-import "./App.module.css";
+import 'reset-css';
+import Style from "./App.module.css";
 import "./Assets/portrait-1080p.jpg";
 import game2048Img from "./Assets/2048-game.jpg";
 import weatherAppImg from "./Assets/weather-app.jpg";
@@ -7,7 +8,7 @@ import Card from "./Components/Card";
 
 export default function App() {
   return (
-    <div className="app">
+    <div className={Style.App}>
       <Card
         imgSrc={worldSolverImg}
         title="WordleSolver"
