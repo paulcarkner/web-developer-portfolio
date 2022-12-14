@@ -51,7 +51,7 @@ export default function App() {
         title="Weather App"
         tags="HTML, CSS, JavaScript, React"
         codeUrl="http://somelink.com"
-        previewUrl="http://somelink.com"
+        previewUrl="/weather-app"
       >
         Weather app text.
       </Card>
