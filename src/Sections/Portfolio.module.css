@@ -1,0 +1,10 @@
+.Portfolio {
+  background: var(--theme-clr-accent-dark);
+}
+
+.cardContainer {
+  display: grid;
+  gap: 2.5em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+}

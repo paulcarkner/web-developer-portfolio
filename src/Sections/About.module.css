@@ -1,0 +1,16 @@
+.About {
+}
+
+.AboutGrid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 3em;
+}
+
+.SkillContainer {
+  background: #111;
+  border: 0.1em dashed var(--theme-clr-accent-medium);
+  box-shadow: 0 0 0 0.3em #111, 0 0.3em 0.6em 0.3em #0004;
+  border-radius: 1em;
+  padding: 1.5em 2em;
+}

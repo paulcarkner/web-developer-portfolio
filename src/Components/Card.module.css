@@ -1,8 +1,14 @@
 .card {
-  border: 1px solid #fff4;
   border-radius: 0.3em;
   overflow: hidden;
-  width: 300px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  box-shadow: 0 0.3em 0.6em 0.3em #0004;
+  transition: transform linear 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card img {
@@ -16,7 +22,8 @@
 .cardBody {
   padding: 1em;
   display: grid;
-  gap: 1em;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 0.5em;
   background: #111;
   box-shadow: inset 0 0 0.5em #000;
   text-shadow: 1px 1px 0 #0004;
@@ -24,18 +31,20 @@
 
 .cardTitle {
   font-weight: bold;
-  /* font-family: "nyt-karnakcondensed";
-  font-weight: 700; */
   font-size: 2em;
   letter-spacing: 0.01em;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .cardDescription {
+  line-height: 1.3em;
+  padding: 0.8em 0 1em;
 }
 
 .cardTags {
-  font-size: 0.75em;
-  color: #aaa;
+  font-size: 0.825em;
+  color: var(--theme-clr-accent-light);
 }
 
 .cardLinks {
@@ -52,8 +61,12 @@
   color: inherit;
 }
 
-.cardButton:hover {
-  background-color: #666;
+.cardButton:hover, .cardButton:focus {
+  background-color: var(--theme-clr-accent-light);
+  color: #000;
+  box-shadow: inset 0 15px 15px -15px #fff, inset 0 -15px 15px -15px #000;
+  text-shadow: 0 1px 1px #fff4;
+  outline: 0;
 }
 
 .cardButton span {

@@ -1,7 +1,54 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .App {
-  display: grid;
-    gap: 1em;
-    margin-right: 55vh;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-items: center;
+  --theme-clr-dark: #111;
+  --theme-clr-accent-dark: hsl(240deg 7% 7%);
+  --theme-clr-accent-medium: hsl(240deg 15% 40%);
+  --theme-clr-accent-light: hsl(240deg 100% 90%);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 1.2em;
+}
+
+h1 {
+  font-size: 2em;
+  color: var(--theme-clr-accent-light);
+  font-variant: small-caps;
+  text-shadow: 1px 1px 0 #000;
+}
+
+h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  margin-block: 1em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+:global(.sunken) {
+  box-shadow: inset 0 20px 20px -20px #000, inset 0 -20px 20px -20px #000;
+  background: #222;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+:global(.container) {
+  flex: 0 1 1000px;
+  padding: 3em 1em;
 }
