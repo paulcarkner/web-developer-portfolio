@@ -15,11 +15,9 @@ import connect4Img from "../Assets/connect4.jpg";
 
 export default function Portfolio() {
   return (
-    <section className={Style.Portfolio}>
+    <section id="portfolio" className={Style.Portfolio}>
       <div className="container">
-        <a name="portfolio">
-          <h1>Web Developer Portfolio</h1>
-        </a>
+        <h1>Web Developer Portfolio</h1>
         <div className={Style.cardContainer}>
           <Card
             imgSrc={worldSolverImg}
@@ -51,7 +49,8 @@ export default function Portfolio() {
             codeUrl="https://github.com/paulcarkner/connect4"
             previewUrl="/connect4"
           >
-            A recreation of the game &quot;Connect 4.&quot; Just a simple trial of Typescript with all graphics done using only CSS.
+            A recreation of the game &quot;Connect 4.&quot; Just a simple trial
+            of Typescript with all graphics done using only CSS.
           </Card>
           <Card
             imgSrc={game2048Img}

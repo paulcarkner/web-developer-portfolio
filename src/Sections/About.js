@@ -5,9 +5,9 @@ import SkillsBars from "../Components/SkillsBars";
 
 export default function About() {
   return (
-    <section className={`${Style.About} sunken`}>
+    <section id="about" className={`${Style.About} sunken`}>
       <div className="container">
-        <a name="about"><h1>About Me</h1></a>
+        <h1>About Me</h1>
         <div className={Style.AboutGrid}>
           <div>
             <p>
