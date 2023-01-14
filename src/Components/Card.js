@@ -15,7 +15,7 @@ export default class Card extends React.Component {
               <span className="material-symbols-outlined">open_in_new</span>
               Preview
             </a> : null}
-            {this.props.codeUrl !== "" ? <a className={Style.cardButton} href={this.props.codeUrl}>
+            {this.props.codeUrl !== "" ? <a className={Style.cardButton} href={this.props.codeUrl} target="_blank" rel="noreferrer">
               <span className="material-symbols-outlined">code</span>Code
             </a> : null}
           </div>
