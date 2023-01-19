@@ -1,47 +1,47 @@
-.Resume {
+.resume {
   font-size: 1.2em;
   text-shadow: 1px 1px 0 #0004;
 }
 
-.Resume .ResumeGrid {
+.resume .resumeGrid {
     display: grid;
     grid-template-columns: 2fr 1fr; 
     gap: 2em; 
 }
 
-.Resume h2 {
+.resume h2 {
     border-bottom: 1px solid var(--theme-clr-accent-medium);
     padding-bottom: 0.3em;
     margin-bottom: 0.5em;
 }
 
-.Resume b {
+.resume b {
   font-weight: bold;
   font-size: 1.2em;
   line-height: 1.3em;
   color: var(--theme-clr-accent-light);
 }
 
-.Resume i {
+.resume i {
   font-style: italic;
   color: var(--theme-clr-accent-light);
 }
 
-.Resume p {
+.resume p {
   line-height: 1.15;
   margin-block: 1em;
 }
 
-.Resume a {
+.Reresumesume a {
     color: var(--theme-clr-accent-light);
     text-decoration: none;
 }
 
-.Resume a:hover {
+.resume a:hover {
     text-decoration: underline;
 }
 
-.Resume a span {
+.resume a span {
     display: inline-block;
     margin-left: 0.3em;
     font-size: 1em;

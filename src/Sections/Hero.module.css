@@ -1,4 +1,4 @@
-.Hero {
+.hero {
   background-color: #111;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
   flex-direction: column;
 }
 
-.Menu {
+.menu {
   margin-top: 2em;
   display: grid;
   grid-auto-flow: column;
@@ -27,19 +27,19 @@
   align-items: baseline;
 }
 
-.Menu .title {
+.menu .title {
   font-size: 3rem;
   font-weight: 100;
   color: #aaa;
   text-shadow: 1px 1px 0 #000;
 }
 
-.Menu .title b {
+.menu .title b {
   color: var(--theme-clr-accent-light);
   font-weight: 800;
 }
 
-.Menu a {
+.menu a {
   color: #aaa;
   text-decoration: none;
   text-transform: uppercase;
@@ -49,11 +49,11 @@
   position: relative;
 }
 
-.Menu a:hover {
+.menu a:hover {
   color: #fff;
 }
 
-.Menu a::after {
+.menu a::after {
   position: absolute;
   content: "";
   width: 0%;
@@ -65,18 +65,18 @@
   transition: all linear 0.3s;
 }
 
-.Menu a:hover::after {
+.menu a:hover::after {
   width: 100%;
   opacity: 1;
 }
 
-.Characteristics {
+.characteristics {
   font-size: 3em;
   padding-left: 2em;
   font-family: 'Montserrat', sans-serif;
 }
 
-.Characteristics > div {
+.characteristics > div {
   display: inline-block;
   padding-inline: 0.5em;
   margin-inline: 0.1em;
@@ -99,7 +99,7 @@
   opacity: 0;
 }
 
-.LogoGrid {
+.logoGrid {
   margin-bottom: 3em;
   display: grid;
   grid-template-columns: repeat(4, 40px);
@@ -109,7 +109,7 @@
   font-weight: bold;
 }
 
-.LogoGrid img {
+.logoGrid img {
   position: relative;
   filter: saturate(0) brightness(0.3);
   width: 100%;
@@ -118,7 +118,7 @@
   transition: all linear 0.3s;
 }
 
-.LogoGrid img:hover {
+.logoGrid img:hover {
   transform: scale(1.1) translateY(-5px);
   filter: saturate(1) brightness(1);
 }

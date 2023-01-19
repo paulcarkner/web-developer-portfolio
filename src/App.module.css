@@ -1,8 +1,8 @@
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-.App {
+.app {
   --theme-clr-dark: #111;
   --theme-clr-accent-dark: hsl(240deg 7% 7%);
   --theme-clr-accent-medium: hsl(240deg 15% 40%);

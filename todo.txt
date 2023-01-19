@@ -1,2 +1,0 @@
-add connect4 to portfolio
-quotes from reviews

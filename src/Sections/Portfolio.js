@@ -15,7 +15,7 @@ import connect4Img from "../Assets/connect4.jpg";
 
 export default function Portfolio() {
   return (
-    <section id="portfolio" className={Style.Portfolio}>
+    <section id="portfolio" className={Style.portfolio}>
       <div className="container">
         <h1>Web Developer Portfolio</h1>
         <div className={Style.cardContainer}>
@@ -100,7 +100,7 @@ export default function Portfolio() {
             previewUrl="/resume/"
           >
             Resume made with HTML and CSS to look like pages and prints
-            similarly. This is a really long sentence to test different heights.
+            similarly.
           </Card>
           <Card
             imgSrc={portfolioImg}

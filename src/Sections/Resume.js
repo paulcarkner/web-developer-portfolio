@@ -3,10 +3,10 @@ import Style from "./Resume.module.css";
 
 export default function Resume() {
   return (
-    <section id="resume" className={`${Style.Resume} sunken`}>
+    <section id="resume" className={`${Style.resume} sunken`}>
       <div className="container">
         <h1>Resume</h1>
-        <div className={Style.ResumeGrid}>
+        <div className={Style.resumeGrid}>
           <div>
             <h2>Work Experience</h2>
             <ul className={Style.none}>

@@ -27,7 +27,7 @@ export default function App() {
   document.title = "Paul Carkner's Web Developer Portfolio";
 
   return (
-    <div className={Style.App}>
+    <div className={Style.app}>
       <Hero />
       <Stats />
       <Portfolio />

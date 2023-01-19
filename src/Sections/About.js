@@ -5,17 +5,17 @@ import SkillsBars from "../Components/SkillsBars";
 
 export default function About() {
   return (
-    <section id="about" className={`${Style.About} sunken`}>
+    <section id="about" className="sunken">
       <div className="container">
         <h1>About Me</h1>
-        <div className={Style.AboutGrid}>
+        <div className={Style.aboutGrid}>
           <div>
             <p>
               I've been writing webpages since the &lt;table&gt; element was
               introduced. 
             </p>
           </div>
-          <div className={Style.SkillContainer}>
+          <div className={Style.skillContainer}>
             <h2>Skill Proficiency</h2>
             <SkillsBars name="HTML5" value="5,000+ hr" barCount={5} />
             <SkillsBars name="CSS3" value="5,000+ hr" barCount={5} />
