@@ -2,6 +2,7 @@ import React from "react";
 import Style from "./Portfolio.module.css";
 import Card from "../Components/Card";
 
+import dashyImg from "../Assets/dash-y.jpg";
 import game2048Img from "../Assets/2048-game.jpg";
 import weatherAppImg from "../Assets/weather-app.jpg";
 import worldSolverImg from "../Assets/wordle-solver.jpg";
@@ -19,6 +20,18 @@ export default function Portfolio() {
       <div className="container">
         <h1>Web Developer Portfolio</h1>
         <div className={Style.cardContainer}>
+          <Card
+            imgSrc={dashyImg}
+            title="Dash-y"
+            tags="HTML, CSS, TypeScript, React, Redux"
+            codeUrl="https://github.com/paulcarkner/personal-dashboard"
+            previewUrl="https://dash-y.xyz"
+          >
+            A sample personal dashboard built using TypeScript and Redux that
+            collects data from real and simulated APIs and displays the data in
+            various ways - lists, charts, graphics, SVG. A functioning
+            Notes/Checklist feature and light/dark mode. Responsive design.
+          </Card>
           <Card
             imgSrc={worldSolverImg}
             title="WordleSolver"

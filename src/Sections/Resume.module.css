@@ -4,15 +4,15 @@
 }
 
 .resume .resumeGrid {
-    display: grid;
-    grid-template-columns: 2fr 1fr; 
-    gap: 2em; 
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2em;
 }
 
 .resume h2 {
-    border-bottom: 1px solid var(--theme-clr-accent-medium);
-    padding-bottom: 0.3em;
-    margin-bottom: 0.5em;
+  border-bottom: 1px solid var(--theme-clr-accent-medium);
+  padding-bottom: 0.3em;
+  margin-bottom: 0.5em;
 }
 
 .resume b {
@@ -33,20 +33,20 @@
 }
 
 .resume a {
-    color: var(--theme-clr-accent-light);
-    text-decoration: none;
+  color: var(--theme-clr-accent-light);
+  text-decoration: none;
 }
 
 .resume a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .resume a span {
-    display: inline-block;
-    margin-left: 0.3em;
-    font-size: 1em;
-    vertical-align: middle;
-    text-decoration: none;
+  display: inline-block;
+  margin-left: 0.3em;
+  font-size: 1em;
+  vertical-align: middle;
+  text-decoration: none;
 }
 
 .none {
